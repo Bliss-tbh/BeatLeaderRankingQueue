@@ -13,7 +13,7 @@ module.exports = {
                 });
             }
 
-            const CHROVIEWER = `https://watch.scoresaber.com/?map=`;
+            const CHROVIEWER = `https://chroviewer.com//?map=`;
             const FOURM_CHANNEL_ID = luma.offenseManager.FOURM_CHANNEL_ID;
             let thread = message.channel;
             if (thread == null || !(thread instanceof ThreadChannel)) {
